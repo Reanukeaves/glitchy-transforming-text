@@ -15,7 +15,7 @@ Glitchy is a visual React component that allows you to cycle between two texts u
 To start using Glitchy, you can simply import it and use it as a component.
 
 ```js
-import Glitchy from "glitchy-transforming-text";
+import { Glitchy } from "glitchy-transforming-text";
 
 <Glitchy transitionText="技術スタック">stack</Glitchy>;
 ```
