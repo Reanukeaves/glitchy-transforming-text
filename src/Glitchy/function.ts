@@ -15,8 +15,8 @@ const TransitionText = ({
   transitionDelay,
   randomChars
 }: TransitionTextProps) => {
-  const TRANSITION_DELAY = transitionDelay ? transitionDelay : 80; // delay in ms between each character transition
-  const REPEAT_DELAY = randCharDelay ? randCharDelay : 4500; // delay in ms before repeating the entire effect
+  const TRANSITION_DELAY = randCharDelay ? randCharDelay : 80; // delay in ms between each character transition 
+  const REPEAT_DELAY = transitionDelay ? transitionDelay  : 4500; // delay in ms before repeating the entire effect
   const TRANSITION_CHARS = randomChars; // transition characters
   const [text, setText] = useState(secondText);
 

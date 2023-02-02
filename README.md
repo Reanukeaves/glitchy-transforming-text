@@ -36,8 +36,8 @@ import { Glitchy } from "glitchy-transforming-text";
   transitionText="技術スタック"
   typography="h1"
   className="neon"
-  transitionDelay={100}
-  randCharDelay={3000}
+  transitionDelay={3000}
+  randCharDelay={100}
 >
   stack
 </Glitchy>
